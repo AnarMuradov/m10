@@ -1,0 +1,245 @@
+.footer {
+  width: 100%;
+  min-height: 530px;
+  background-color: #f3f4f4;
+  border-top: 1px solid black;
+
+  .footerContainer {
+    width: 65%;
+    min-height: 530px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__image {
+      img {
+        width: 171px;
+      }
+      &__dowmloadimg {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        img {
+          width: 171px;
+          cursor: pointer;
+        }
+      }
+    }
+    @media only screen and (max-width: 666px) {
+      &__image {
+        display: flex;
+        width: 410px;
+        justify-content: space-between;
+      }
+    }
+
+    &__info {
+      max-width: 500px;
+      &__head {
+        font-size: 48px;
+        font-weight: 700;
+      }
+      &__text {
+        font-size: 22px;
+        font-weight: 500;
+      }
+      &__supportImg {
+        display: flex;
+        gap: 18px;
+        img {
+          width: 50px;
+          cursor: pointer;
+        }
+        .supportNumber {
+          width: 112px;
+          position: relative;
+          img {
+            width: 112px;
+            cursor: pointer;
+          }
+          span {
+            position: absolute;
+            top: 12px;
+            right: 17px;
+            font-weight: 700;
+            font-size: 18px;
+            cursor: pointer;
+          }
+        }
+      }
+      &__foot {
+        display: flex;
+        gap: 10px;
+        margin-top: 5px;
+        &__privacy {
+          width: 259px;
+          position: relative;
+          img {
+            width: 259px;
+            cursor: pointer;
+          }
+          span {
+            position: absolute;
+            top: 12px;
+            right: 70px;
+            font-weight: 700;
+            font-size: 18px;
+            cursor: pointer;
+          }
+        }
+        @media only screen and (max-width: 500px) {
+          &__privacy {
+            width: 200px;
+            img {
+              width: 200px;
+              height: 50px;
+            }
+            span {
+              right: 40px;
+            }
+          }
+        }
+        &__terms {
+          width: 191px;
+          position: relative;
+          img {
+            width: 191px;
+            cursor: pointer;
+          }
+          span {
+            position: absolute;
+            top: 12px;
+            right: 42px;
+            font-weight: 700;
+            font-size: 18px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    @media only screen and (max-width: 768px) {
+      &__info {
+        max-width: 427px;
+        &__head {
+          font-size: 40px;
+        }
+        &__text {
+          font-size: 19px;
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 1050px) {
+    .footerContainer {
+      width: 90%;
+    }
+  }
+  @media only screen and (max-width: 666px) {
+    .footerContainer {
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+    }
+  }
+  @media only screen and (max-width: 410px) {
+    .footerContainer {
+        width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      &__image {
+        justify-content:flex-start;
+        gap: 20px;
+
+        img {
+          width: 131px;
+        }
+        &__dowmloadimg {
+          margin-top: 20px;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          img {
+            width: 131px;
+            cursor: pointer;
+          }
+        }
+      }
+
+      &__info {
+        max-width: 500px;
+        &__head {
+          font-size: 48px;
+          font-weight: 700;
+        }
+        &__text {
+          font-size: 22px;
+          font-weight: 500;
+        }
+        &__supportImg {
+          display: flex;
+          gap: 18px;
+          img {
+            width: 50px;
+            cursor: pointer;
+          }
+          .supportNumber {
+            width: 112px;
+            position: relative;
+            img {
+              width: 112px;
+              cursor: pointer;
+            }
+            span {
+              position: absolute;
+              top: 12px;
+              right: 17px;
+              font-weight: 700;
+              font-size: 18px;
+              cursor: pointer;
+            }
+          }
+        }
+        &__foot {
+          display: flex;
+          gap: 10px;
+          margin-top: 5px;
+          &__privacy {
+            width: 259px;
+            position: relative;
+            img {
+              width: 259px;
+              cursor: pointer;
+            }
+            span {
+              position: absolute;
+              top: 12px;
+              right: 70px;
+              font-weight: 700;
+              font-size: 18px;
+              cursor: pointer;
+            }
+          }
+
+          &__terms {
+            width: 191px;
+            position: relative;
+            img {
+              width: 191px;
+              cursor: pointer;
+            }
+            span {
+              position: absolute;
+              top: 12px;
+              right: 42px;
+              font-weight: 700;
+              font-size: 18px;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}

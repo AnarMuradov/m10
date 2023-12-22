@@ -27,6 +27,9 @@ const Navbar = () => {
             </option>
           </select>
         </div>
+        <div className='navbarContainer__asideBar'>
+        <i className="fa-solid fa-bars"></i>
+        </div>
 
         </div>
         
