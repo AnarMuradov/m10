@@ -1,0 +1,24 @@
+#transfer{
+    width: 100%;
+    min-height: 640px;
+
+    .transferSection{
+        width: 65%;
+        min-height: 640px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__content{
+            display: flex;
+            flex-direction: column;
+            height: 640px;
+            justify-content: space-between;
+           
+            &__info{
+                
+            }
+        }
+    }
+}
