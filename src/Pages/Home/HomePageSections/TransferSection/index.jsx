@@ -15,14 +15,14 @@ const Transfer = () => {
             </div>
           </div>
           <div className="transferSection__content__img">
-            <div className="transferSection__image__m10">
+            <div className="transferSection__content__img__m10">
               <img
                 src="https://thumb.tildacdn.com/tild6131-3462-4131-b030-323733363631/-/resize/144x/-/format/webp/_m19.jpg"
                 alt=""
               />
               <span>To m10</span>
             </div>
-            <div className="transferSection__image__card">
+            <div className="transferSection__content__img__card">
               <img
                 src="https://thumb.tildacdn.com/tild6431-3933-4037-b431-396434326636/-/resize/144x/-/format/webp/_.jpg"
                 alt=""
